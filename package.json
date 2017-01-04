@@ -1,0 +1,44 @@
+{
+  "name": "pandora-tips",
+  "version": "1.2.0",
+  "description": "Tips, 继承于 Dialog",
+  "keywords": [
+    "tips",
+    "pandora",
+    "widget"
+  ],
+  "homepage": "https://github.com/pandorajs/tips",
+  "bugs": {
+    "url": "https://github.com/pandorajs/tips/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/pandorajs/tips/blob/master/LICENSE-MIT"
+    }
+  ],
+  "author": {
+    "name": "pandorajs",
+    "url": "https://github.com/pandorajs"
+  },
+  "owners": [
+    {
+      "name": "pandorajs"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pandorajs/tips.git"
+  },
+  "engines": {
+    "node": ">= 5.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "pandora-dialog": "^1.2.0"
+  },
+
+  "scripts": {
+    "publish": "npm publish --registry http://registry.npmjs.org"
+  }
+}
